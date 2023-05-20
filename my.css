@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column  ;
+    align-items: center;
+    background: radial-gradient(black , rgb(100, 87, 87));
+
+}
+h1{
+    margin-top: 20px;
+    color: rgb(231, 216, 216);
+    margin-left: -375px;
+}
+#input{
+
+    width: 450px;
+    height: 45px;
+    border-radius: 5px;
+    margin-top: 30px;
+    font-size: 15px;
+    padding-left:20px;
+    background-color:rgb(231, 216, 216);
+
+}
+
+#btn{
+    position: relative;
+    font-weight: bold;
+    top: -1.2px;
+    left: 2px;
+    width: 80px;
+    height: 44px;
+    background-color:rgb(231, 216, 216);
+    border: none;
+    border-radius: 5px;
+}
+#btn:hover{
+    background-color: rgb(195, 228, 12);
+    color: black;
+}
+
+
+#del{
+    position: relative;
+    top: -1.2px;
+    left: 2px;
+    border-radius: 5px;
+    padding: 9px;
+    height: 44px;
+    background-color:rgb(231, 216, 216);
+    border: none;
+    font-weight: bold;
+}
+#del:hover{
+    background-color: red;
+    color: white;
+}
+#result{
+    
+   
+    box-shadow: 2px 2px 2px 0px grey;
+    width: 626px;
+   background-color:rgb(231, 216, 216);
+   border-radius: 5px;
+}
+.text{
+    background: transparent;
+    border: 0;
+    color: white;
+    font-size: 18px;
+    margin-top: -4px;
+    outline: none;
+    width: 450px;
+}
+.empty{
+    color: white;
+    position: relative;
+    top: 50px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px 1px  rgb(190, 179, 179);
+    width: 627px;
+    height: 300px;
+    letter-spacing: 2px;
+
+}
+.cont{
+    margin-top: -40px;
+    color:rgb(231, 216, 216);
+}
+.editop{
+    position: relative;
+    left: 150px;
+    top: 30px;
+    border-radius: 10px;
+}
+
+.divvalue{
+    position: relative;
+    top: 2px;
+    border: 0.8px solid rgb(190, 179, 179);
+    background-color: rgb(41, 36, 36);
+    border-radius: 8px;
+    color: white;
+    list-style-type: none;
+    font-size: 20px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.listdiv{
+    width: 70px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.textedit{
+    color: rgb(89, 235, 4);
+}
+h5{
+
+    color: rgb(219, 64, 16);
+    cursor: pointer;
+    font-weight: bold;
+    
+}
+#result{
+    margin-top: 30px;
+}
+
